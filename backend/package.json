@@ -1,11 +1,16 @@
 {
   "name": "apv-backend",
   "version": "1.0.0",
+
+  "type": "module",
   "description": "Aprendiendo JS fullstack",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "author": "Peter Arce",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
