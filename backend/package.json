@@ -1,0 +1,11 @@
+{
+  "name": "apv-backend",
+  "version": "1.0.0",
+  "description": "Aprendiendo JS fullstack",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Peter Arce",
+  "license": "ISC"
+}
