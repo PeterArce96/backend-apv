@@ -9,6 +9,10 @@ const pacienteSchema = mongoose.Schema({
         type: String,
         required: true,
     },
+    email: {
+        type: String,
+        required: true,
+    },
     fecha: {
         type: Date,
         required: true,
