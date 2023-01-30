@@ -6,14 +6,11 @@ const Paciente = ({paciente}) => {
     
     const { email, fecha, nombre, propietario, sintomas, _id } = paciente
 
-    console.log(fecha)
 
     const formatearFecha = (fecha) => {
         const nuevaFecha = new Date(fecha)
         return new Intl.DateTimeFormat('es-PE', {dateStyle: 'long'}).format(nuevaFecha)
     }
-
-    console.log(fecha)
 
   return (
     <div className="mx-5 my-10 bg-white shadow-md px-5 py-10 rounded-xl">
